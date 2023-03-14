@@ -57,16 +57,19 @@
       </div>
         <div class="form-group">
             <label>What would you like to see improved?</label>
-                <div><label><input type="checkbox" name="Data visualization">Data visualization</label></div>
-                <div><label><input type="checkbox" name="Delivery time">Delivery time</label></div>
-                <div><label><input type="checkbox" name="Categories">Categories</label></div>
-                <div><label><input type="checkbox" name="Feed">Feed</label></div>        
+            <span class="clue">(Check all that apply)</span>
+                <div><label><input type="checkbox" name="prefer" value="Data visualization" class="input-checkbox">Data visualization</label></div>
+                <div><label><input type="checkbox" name="prefer" value="Delivery time" class="input-checkbox">Delivery time</label></div>
+                <div><label><input type="checkbox" name="prefer" value="Categories" class="input-checkbox">Categories</label></div>
+                <div><label><input type="checkbox" name="prefer" value="Feed" class="input-checkbox">Feed</label></div>        
         </div>
       <div>
         <label class="input-element">Additional comments</label><br>
-          <textarea type="text"></textarea>
+          <textarea id="comments" class="input-textarea" type="text" name="comment" placeholder="Enter your comment here"></textarea>
       </div>
-      <button type="submit" id="submit">Submit</button>
+      <div>
+      <button class="submit-button" type="submit" id="submit">Submit</button>
+      </div>
     </form>
 </body>
 </html>
