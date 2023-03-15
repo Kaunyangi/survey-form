@@ -13,25 +13,21 @@
   <h1 id="title" class="text-center">Jumia App Survey form</h1>
   <p id="description" class="description text-center">Thank you for taking the time to help us improve the platform</p>
   </header>
-  </div>
   <form id="survey-form">
   <div class="form-group">
-  <label id="name-label" for="name">Name
+  <label id="name-label" for="name">Name </label>
     <input placeholder="name"id="name"type="text" class="form-control" required/>
-  </label>
   </div>
   <div class="form-group">
-    <label id="email-label" for="email">Email
-      <input placeholder="email"id="email"type="email" class="form-control" required/>
-    </label>
+    <label id="email-label" for="email">Email</label>
+      <input placeholder="email"id="email"type="email" class="form-control" required/> 
   </div>
     <div class="form-group">
-        <label id="number-label" for="number">Age
-          <input name="age"placeholder="age"id="number" min="5"max="100"type="number" class="form-control"/>
-        </label>
+        <label id="number-label" for="number">Age</label>
+          <input name="age"placeholder="age"id="number" min="5"max="100"type="number" class="form-control"/>   
     </div>
     <div class="form-group">
-        <label id="select-label">Which option best describes your current role?
+        <label id="select-label">Which option best describes your current role?</label>
            <div><select id="dropdown" name="role" class="form-control" required>
             <option disabled selected value>Select current role</option>
             <option value="student">Student</option>
@@ -40,14 +36,12 @@
             <option value="preferNo">Prefer not to say</option>
             <option value="other">Other</option></select>
           </div>
-        </label>
         </div>
         <div class="form-group">
-            <label>Would you reccomend Jumia to a friend?
+            <label>Would you reccomend Jumia to a friend?</label>
                 <div><label><input type="radio" name="user-recommend" value="definitely" class="input-radio">Definitely</label></div>
                 <div><label><input type="radio" name="user-recommend" value="maybe" class="input-radio">Maybe</label></div>
-                <div><label><input type="radio" name="user-recommend" value="not sure" class="input-radio">Not sure</label></div>
-                </label>
+                <div><label><input type="radio" name="user-recommend" value="not sure" class="input-radio">Not sure</label></div>        
         </div>
         <div class="form-group">
           <label id="select-label">What is your favourite feature from jumia?</label>
@@ -75,5 +69,6 @@
       <button class="submit-button" type="submit" id="submit">Submit</button>
       </div>
     </form>
+  </div>
 </body>
 </html>
